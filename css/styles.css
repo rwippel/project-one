@@ -1,0 +1,46 @@
+
+
+h1 {
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+body {
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    font-family: Verdana, sans-serif;  
+    background-color: grey;
+   
+    text-decoration: none;
+  }
+
+
+.class {
+   
+    border-radius: 6px;
+    padding: 30px;
+    text-decoration: none;
+
+}
+
+#achievements {
+    font-size: 15px;
+    padding: 160px;
+    text-align: left;
+    
+
+}
+
+#bio {
+    font-size: 20px;
+    padding: 10px;
+
+
+}
+
+#achievheader {
+    font-size: 30px;
+    text-align: left;
+}
