@@ -6,7 +6,8 @@
 .main-header {
     padding-top: 170px;
     height: 650px;
-    background: black url('../assets/TomPetty.jpg') no-repeat center;
+    background: linear-gradient(-10deg, #fff, transparent),
+            black url('../assets/TomPetty.jpg') no-repeat center;
     background-size: cover;
     position: relative;
     
@@ -15,12 +16,12 @@
 
 h1 {
     margin: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Kodchasan', cursive;
     position: absolute;
     left: 750px;
     top: 50px;
     padding: 30px;
-    font-size: 130px;
+    font-size: 110px;
     text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
                0 3px 0 #bbb,
@@ -36,33 +37,38 @@ h1 {
 }
 
 h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Kodchasan', cursive;
     position: absolute;
-    left: 915px;
-    top: 220px;
+    left: 900px;
+    top: 280px;
     padding: 20px;
-    font-size: 22px;
+    font-size: 20px;
              
 }
 
 h3 {
+    font-family: 'Kodchasan', cursive;
     text-align: center;
     font-size: 35px;
     position: relative;
     top: 30px;
 }
 
+h5 {
+    font-family: 'Kodchasan', cursive;
+    text-align: center;
+}
+
 body {
     margin: 10px;
     padding: 10px;
     text-align: left; 
-    text-decoration: none;
     line-height: 1.7;
 }
 
 img {
     max-width: 100%;
-    border-radius: 500px;
+    border-radius: 50px;
     width: 600px;
     display: block;
     margin-left: auto;
@@ -91,4 +97,5 @@ ul {
 #wiki {
     text-align: center;
     font-family: 'Crimson Text', serif;
+    font-size: 20px;
 }
