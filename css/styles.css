@@ -38,8 +38,8 @@ h1 {
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
-    left: 925px;
-    top: 250px;
+    left: 915px;
+    top: 220px;
     padding: 20px;
     font-size: 22px;
              
@@ -48,6 +48,8 @@ h2 {
 h3 {
     text-align: center;
     font-size: 35px;
+    position: relative;
+    top: 30px;
 }
 
 body {
@@ -55,7 +57,7 @@ body {
     padding: 10px;
     text-align: left; 
     text-decoration: none;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 img {
@@ -72,18 +74,17 @@ ul {
     list-style-type: none;
     padding: 0 20px 0px 20px;
     font-family: 'Crimson Text', serif;
-
 }
 
 
 #achievements {
     font-size: 18px;
-    padding: 5px;
+    padding: 0 5px 5px 5px;
 }
 
 #biography {
     font-size: 20px;
-    padding: 50px 50px 5px 50px;
+    padding: 50px 50px 0 50px;
     font-family: 'Crimson Text', serif;
 }
 
