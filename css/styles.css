@@ -8,77 +8,86 @@
     height: 650px;
     background: black url('../assets/TomPetty.jpg') no-repeat center;
     background-size: cover;
-    text-align: right;
+    position: relative;
+    
 }
 
 
 h1 {
-    margin: 40px;
+    margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
+    position: absolute;
+    left: 750px;
+    top: 50px;
+    padding: 30px;
     font-size: 130px;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 
-h2,
-h3  {
-    margin: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 925px;
+    top: 250px;
     padding: 20px;
-    font-size: 30px;
+    font-size: 22px;
+             
 }
 
-h4 {
-    background:grey;
-    color: white;
+h3 {
+    text-align: center;
+    font-size: 35px;
 }
 
 body {
     margin: 10px;
     padding: 10px;
-    text-align: left;
-    font-family: Verdana, sans-serif;  
+    text-align: left; 
     text-decoration: none;
+    line-height: 1.5;
 }
 
 img {
     max-width: 100%;
-    margin: 20px;
     border-radius: 500px;
     width: 600px;
-    margin: auto;
-
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 ul {
     text-align: center;
-    background: grey;
-    color: white;
-}
-
-
-.class {
-   
-    border-radius: 6px;
-    padding: 30px;
-    text-decoration: none;
+    list-style-type: none;
+    padding: 0 20px 0px 20px;
+    font-family: 'Crimson Text', serif;
 
 }
+
 
 #achievements {
-    font-size: 15px;
-    padding: 160px;
-    text-align: left;
-    
-
+    font-size: 18px;
+    padding: 5px;
 }
 
 #biography {
     font-size: 20px;
-    padding: 50px;
+    padding: 50px 50px 5px 50px;
+    font-family: 'Crimson Text', serif;
 }
 
-#achievheader {
-    font-size: 30px;
-    text-align: left;
+#wiki {
+    text-align: center;
+    font-family: 'Crimson Text', serif;
 }
