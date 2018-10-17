@@ -1,9 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+.main-header {
+    padding-top: 170px;
+    height: 650px;
+    background: black url('../assets/TomPetty.jpg') no-repeat center;
+    background-size: cover;
+    text-align: right;
+}
 
 
 h1 {
-    margin: 20px;
+    margin: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px;
+    padding: 20px;
+    font-size: 130px;
+}
+
+h2,
+h3  {
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    padding: 20px;
+    font-size: 30px;
+}
+
+h4 {
+    background:grey;
+    color: white;
 }
 
 body {
@@ -11,10 +37,24 @@ body {
     padding: 10px;
     text-align: left;
     font-family: Verdana, sans-serif;  
-    background-color: grey;
-   
     text-decoration: none;
-  }
+}
+
+img {
+    max-width: 100%;
+    margin: 20px;
+    border-radius: 500px;
+    width: 600px;
+    margin: auto;
+
+    
+}
+
+ul {
+    text-align: center;
+    background: grey;
+    color: white;
+}
 
 
 .class {
@@ -33,11 +73,9 @@ body {
 
 }
 
-#bio {
+#biography {
     font-size: 20px;
-    padding: 10px;
-
-
+    padding: 50px;
 }
 
 #achievheader {
