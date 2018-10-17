@@ -57,6 +57,7 @@ h3 {
 h5 {
     font-family: 'Kodchasan', cursive;
     text-align: center;
+    font-size: 15px;
 }
 
 body {
@@ -80,17 +81,16 @@ ul {
     list-style-type: none;
     padding: 0 20px 0px 20px;
     font-family: 'Crimson Text', serif;
-    font-size: 17px;
+    font-size: 20px;
 }
 
-
 #achievements {
-    font-size: 18px;
-    padding: 0 5px 5px 5px;
+    font-size: 80px;
+    padding: 0 10px 10px 10px;
 }
 
 #biography {
-    font-size: 20px;
+    font-size: 25px;
     padding: 50px 50px 0 50px;
     font-family: 'Crimson Text', serif;
 }
