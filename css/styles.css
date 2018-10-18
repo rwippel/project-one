@@ -8,7 +8,8 @@
     height: 650px;
     background: linear-gradient(-10deg, #fff, transparent),
             black url('../assets/TomPetty.jpg') no-repeat center;
-    background-size: cover;
+    border-radius: 50px;
+    background-size: contain;
     position: relative;
     
 }
